@@ -1,25 +1,74 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1k9-He-iQ3">
+                                <rect key="frame" x="142" y="300" width="36" height="256"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uYQ-4x-Dxf" userLabel="Colors">
+                                        <rect key="frame" x="0.0" y="128" width="36" height="128"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstItem="uYQ-4x-Dxf" firstAttribute="leading" secondItem="1k9-He-iQ3" secondAttribute="leading" id="Ca2-Yr-kFE"/>
+                                    <constraint firstAttribute="bottom" secondItem="uYQ-4x-Dxf" secondAttribute="bottom" id="Izd-9B-ETD"/>
+                                    <constraint firstAttribute="trailing" secondItem="uYQ-4x-Dxf" secondAttribute="trailing" id="LPc-2d-qUD"/>
+                                    <constraint firstAttribute="width" constant="36" id="Sc4-Nu-GHX"/>
+                                    <constraint firstAttribute="height" constant="256" id="TOz-hq-7jp"/>
+                                    <constraint firstAttribute="centerY" secondItem="uYQ-4x-Dxf" secondAttribute="top" id="tzT-Tp-Zci"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="1k9-He-iQ3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="280" id="5SD-u6-zrH"/>
+                            <constraint firstItem="1k9-He-iQ3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Y9-4w-yji"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="nlX-LP-4zo" appends="YES" id="cjH-hS-sw9"/>
+                            <outletCollection property="gestureRecognizers" destination="oOd-UU-4dU" appends="YES" id="lGX-TK-NIx"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="leftSwiper" destination="nlX-LP-4zo" id="MT2-ed-axT"/>
+                        <outlet property="rightSwiper" destination="oOd-UU-4dU" id="cJ0-pQ-Tct"/>
+                        <outlet property="shaker" destination="1k9-He-iQ3" id="G6s-49-URU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="nlX-LP-4zo">
+                    <connections>
+                        <action selector="left:" destination="BYZ-38-t0r" id="ERH-kA-Tc0"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="oOd-UU-4dU">
+                    <connections>
+                        <action selector="right:" destination="BYZ-38-t0r" id="ZVO-GU-jze"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="181" y="406"/>
         </scene>
     </scenes>
 </document>

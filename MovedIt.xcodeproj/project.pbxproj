@@ -15,6 +15,7 @@
 		F90F9A581BF6355300AFACD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90F9A561BF6355300AFACD4 /* LaunchScreen.storyboard */; };
 		F90F9A631BF6355300AFACD4 /* MoveItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F90F9A621BF6355300AFACD4 /* MoveItTests.m */; };
 		F90F9A6E1BF6355300AFACD4 /* MoveItUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F90F9A6D1BF6355300AFACD4 /* MoveItUITests.m */; };
+		F90F9A7C1BF6373100AFACD4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F9A7B1BF6373100AFACD4 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F90F9A451BF6355300AFACD4 /* MoveIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90F9A451BF6355300AFACD4 /* MovedIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovedIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90F9A491BF6355300AFACD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F90F9A4B1BF6355300AFACD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F90F9A4C1BF6355300AFACD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,12 +46,13 @@
 		F90F9A541BF6355300AFACD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F90F9A571BF6355300AFACD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F90F9A591BF6355300AFACD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F90F9A5E1BF6355300AFACD4 /* MoveItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90F9A5E1BF6355300AFACD4 /* MovedIt.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovedIt.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90F9A621BF6355300AFACD4 /* MoveItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveItTests.m; sourceTree = "<group>"; };
 		F90F9A641BF6355300AFACD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F90F9A691BF6355300AFACD4 /* MoveItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90F9A691BF6355300AFACD4 /* MovedIt.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovedIt.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90F9A6D1BF6355300AFACD4 /* MoveItUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveItUITests.m; sourceTree = "<group>"; };
 		F90F9A6F1BF6355300AFACD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F90F9A7B1BF6373100AFACD4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F90F9A7C1BF6373100AFACD4 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		F90F9A3C1BF6355300AFACD4 = {
 			isa = PBXGroup;
 			children = (
+				F90F9A7B1BF6373100AFACD4 /* QuartzCore.framework */,
 				F90F9A471BF6355300AFACD4 /* MoveIt */,
 				F90F9A611BF6355300AFACD4 /* MoveItTests */,
 				F90F9A6C1BF6355300AFACD4 /* MoveItUITests */,
@@ -91,9 +95,9 @@
 		F90F9A461BF6355300AFACD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F90F9A451BF6355300AFACD4 /* MoveIt.app */,
-				F90F9A5E1BF6355300AFACD4 /* MoveItTests.xctest */,
-				F90F9A691BF6355300AFACD4 /* MoveItUITests.xctest */,
+				F90F9A451BF6355300AFACD4 /* MovedIt.app */,
+				F90F9A5E1BF6355300AFACD4 /* MovedIt.xctest */,
+				F90F9A691BF6355300AFACD4 /* MovedIt.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,9 +147,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F90F9A441BF6355300AFACD4 /* MoveIt */ = {
+		F90F9A441BF6355300AFACD4 /* MovedIt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F90F9A721BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MoveIt" */;
+			buildConfigurationList = F90F9A721BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MovedIt" */;
 			buildPhases = (
 				F90F9A411BF6355300AFACD4 /* Sources */,
 				F90F9A421BF6355300AFACD4 /* Frameworks */,
@@ -155,14 +159,14 @@
 			);
 			dependencies = (
 			);
-			name = MoveIt;
+			name = MovedIt;
 			productName = MoveIt;
-			productReference = F90F9A451BF6355300AFACD4 /* MoveIt.app */;
+			productReference = F90F9A451BF6355300AFACD4 /* MovedIt.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F90F9A5D1BF6355300AFACD4 /* MoveItTests */ = {
+		F90F9A5D1BF6355300AFACD4 /* MovedItTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F90F9A751BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MoveItTests" */;
+			buildConfigurationList = F90F9A751BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MovedItTests" */;
 			buildPhases = (
 				F90F9A5A1BF6355300AFACD4 /* Sources */,
 				F90F9A5B1BF6355300AFACD4 /* Frameworks */,
@@ -173,14 +177,14 @@
 			dependencies = (
 				F90F9A601BF6355300AFACD4 /* PBXTargetDependency */,
 			);
-			name = MoveItTests;
+			name = MovedItTests;
 			productName = MoveItTests;
-			productReference = F90F9A5E1BF6355300AFACD4 /* MoveItTests.xctest */;
+			productReference = F90F9A5E1BF6355300AFACD4 /* MovedIt.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F90F9A681BF6355300AFACD4 /* MoveItUITests */ = {
+		F90F9A681BF6355300AFACD4 /* MovedItUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F90F9A781BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MoveItUITests" */;
+			buildConfigurationList = F90F9A781BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MovedItUITests" */;
 			buildPhases = (
 				F90F9A651BF6355300AFACD4 /* Sources */,
 				F90F9A661BF6355300AFACD4 /* Frameworks */,
@@ -191,9 +195,9 @@
 			dependencies = (
 				F90F9A6B1BF6355300AFACD4 /* PBXTargetDependency */,
 			);
-			name = MoveItUITests;
+			name = MovedItUITests;
 			productName = MoveItUITests;
-			productReference = F90F9A691BF6355300AFACD4 /* MoveItUITests.xctest */;
+			productReference = F90F9A691BF6355300AFACD4 /* MovedIt.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,6 +211,7 @@
 				TargetAttributes = {
 					F90F9A441BF6355300AFACD4 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = EB59AW96ZD;
 					};
 					F90F9A5D1BF6355300AFACD4 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -218,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F90F9A401BF6355300AFACD4 /* Build configuration list for PBXProject "MoveIt" */;
+			buildConfigurationList = F90F9A401BF6355300AFACD4 /* Build configuration list for PBXProject "MovedIt" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,9 +236,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F90F9A441BF6355300AFACD4 /* MoveIt */,
-				F90F9A5D1BF6355300AFACD4 /* MoveItTests */,
-				F90F9A681BF6355300AFACD4 /* MoveItUITests */,
+				F90F9A441BF6355300AFACD4 /* MovedIt */,
+				F90F9A5D1BF6355300AFACD4 /* MovedItTests */,
+				F90F9A681BF6355300AFACD4 /* MovedItUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -297,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		F90F9A601BF6355300AFACD4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F90F9A441BF6355300AFACD4 /* MoveIt */;
+			target = F90F9A441BF6355300AFACD4 /* MovedIt */;
 			targetProxy = F90F9A5F1BF6355300AFACD4 /* PBXContainerItemProxy */;
 		};
 		F90F9A6B1BF6355300AFACD4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F90F9A441BF6355300AFACD4 /* MoveIt */;
+			target = F90F9A441BF6355300AFACD4 /* MovedIt */;
 			targetProxy = F90F9A6A1BF6355300AFACD4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -344,7 +349,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Atanas Balevsky (XNAYQ7NWXV)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -366,6 +371,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "91b4b4ad-f314-46f6-bf08-7f70b75d0e85";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -388,7 +394,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Atanas Balevski (EB59AW96ZD)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -403,6 +409,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "5b784891-63a9-4404-81be-b42416e36ef5";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -413,10 +420,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Atanas Balevsky (XNAYQ7NWXV)";
 				INFOPLIST_FILE = MoveIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "dk.less-is-more.MoveIt";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.balevsky.MovedIt;
+				PRODUCT_NAME = MovedIt;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -424,10 +434,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Atanas Balevski (EB59AW96ZD)";
 				INFOPLIST_FILE = MoveIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "dk.less-is-more.MoveIt";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.balevsky.MovedIt;
+				PRODUCT_NAME = MovedIt;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -438,8 +451,8 @@
 				INFOPLIST_FILE = MoveItTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dk.less-is-more.MoveItTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveIt.app/MoveIt";
+				PRODUCT_NAME = MovedIt;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovedIt.app/MovedIt";
 			};
 			name = Debug;
 		};
@@ -450,8 +463,8 @@
 				INFOPLIST_FILE = MoveItTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dk.less-is-more.MoveItTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveIt.app/MoveIt";
+				PRODUCT_NAME = MovedIt;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovedIt.app/MovedIt";
 			};
 			name = Release;
 		};
@@ -461,7 +474,7 @@
 				INFOPLIST_FILE = MoveItUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dk.less-is-more.MoveItUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MovedIt;
 				TEST_TARGET_NAME = MoveIt;
 				USES_XCTRUNNER = YES;
 			};
@@ -473,7 +486,7 @@
 				INFOPLIST_FILE = MoveItUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dk.less-is-more.MoveItUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MovedIt;
 				TEST_TARGET_NAME = MoveIt;
 				USES_XCTRUNNER = YES;
 			};
@@ -482,7 +495,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F90F9A401BF6355300AFACD4 /* Build configuration list for PBXProject "MoveIt" */ = {
+		F90F9A401BF6355300AFACD4 /* Build configuration list for PBXProject "MovedIt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F90F9A701BF6355300AFACD4 /* Debug */,
@@ -491,29 +504,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F90F9A721BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MoveIt" */ = {
+		F90F9A721BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MovedIt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F90F9A731BF6355300AFACD4 /* Debug */,
 				F90F9A741BF6355300AFACD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F90F9A751BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MoveItTests" */ = {
+		F90F9A751BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MovedItTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F90F9A761BF6355300AFACD4 /* Debug */,
 				F90F9A771BF6355300AFACD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F90F9A781BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MoveItUITests" */ = {
+		F90F9A781BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MovedItUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F90F9A791BF6355300AFACD4 /* Debug */,
 				F90F9A7A1BF6355300AFACD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
