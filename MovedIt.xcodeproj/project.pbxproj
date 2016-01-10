@@ -7,35 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DEF1FF743297D7EBC5510A4 /* libPods-MovedIt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE3ED073504641C85F3BD41 /* libPods-MovedIt.a */; };
+		C1AA66258CACB677239AEFB6 /* Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AA6535B5018CEDBEBB93E7 /* Vector.m */; };
 		F90F9A4A1BF6355300AFACD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F90F9A491BF6355300AFACD4 /* main.m */; };
 		F90F9A4D1BF6355300AFACD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F90F9A4C1BF6355300AFACD4 /* AppDelegate.m */; };
 		F90F9A501BF6355300AFACD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F90F9A4F1BF6355300AFACD4 /* ViewController.m */; };
 		F90F9A531BF6355300AFACD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90F9A511BF6355300AFACD4 /* Main.storyboard */; };
 		F90F9A551BF6355300AFACD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90F9A541BF6355300AFACD4 /* Assets.xcassets */; };
 		F90F9A581BF6355300AFACD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90F9A561BF6355300AFACD4 /* LaunchScreen.storyboard */; };
-		F90F9A631BF6355300AFACD4 /* MoveItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F90F9A621BF6355300AFACD4 /* MoveItTests.m */; };
-		F90F9A6E1BF6355300AFACD4 /* MoveItUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F90F9A6D1BF6355300AFACD4 /* MoveItUITests.m */; };
 		F90F9A7C1BF6373100AFACD4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F9A7B1BF6373100AFACD4 /* QuartzCore.framework */; };
+		F93F67411C40527900FB527C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F93F67401C40527900FB527C /* libsqlite3.0.tbd */; };
+		F93F67431C40528200FB527C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F93F67421C40528200FB527C /* libz.tbd */; };
+		F93F67451C40528D00FB527C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93F67441C40528D00FB527C /* SystemConfiguration.framework */; };
+		F93F67471C40529400FB527C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93F67461C40529400FB527C /* StoreKit.framework */; };
+		F93F67491C40529B00FB527C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93F67481C40529B00FB527C /* Security.framework */; };
+		F93F674B1C4052AC00FB527C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93F674A1C4052AC00FB527C /* CoreLocation.framework */; };
+		F93F674D1C4052B300FB527C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93F674C1C4052B300FB527C /* CoreGraphics.framework */; };
+		F93F674F1C4052B900FB527C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93F674E1C4052B900FB527C /* CFNetwork.framework */; };
+		F93F67511C4052BF00FB527C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93F67501C4052BF00FB527C /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F90F9A5F1BF6355300AFACD4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F90F9A3D1BF6355300AFACD4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F90F9A441BF6355300AFACD4;
-			remoteInfo = MoveIt;
-		};
-		F90F9A6A1BF6355300AFACD4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F90F9A3D1BF6355300AFACD4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F90F9A441BF6355300AFACD4;
-			remoteInfo = MoveIt;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		0292BA70BCD3B43115D3ECDD /* Pods-MovedIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovedIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovedIt/Pods-MovedIt.debug.xcconfig"; sourceTree = "<group>"; };
+		51314185A5B7E38D1AB923C1 /* Pods-MovedIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovedIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovedIt/Pods-MovedIt.release.xcconfig"; sourceTree = "<group>"; };
+		5EE3ED073504641C85F3BD41 /* libPods-MovedIt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovedIt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1AA6535B5018CEDBEBB93E7 /* Vector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vector.m; sourceTree = "<group>"; };
+		C1AA6D8894188CEEE923B12F /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
 		F90F9A451BF6355300AFACD4 /* MovedIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovedIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90F9A491BF6355300AFACD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F90F9A4B1BF6355300AFACD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,13 +43,20 @@
 		F90F9A541BF6355300AFACD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F90F9A571BF6355300AFACD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F90F9A591BF6355300AFACD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F90F9A5E1BF6355300AFACD4 /* MovedIt.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovedIt.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90F9A621BF6355300AFACD4 /* MoveItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveItTests.m; sourceTree = "<group>"; };
 		F90F9A641BF6355300AFACD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F90F9A691BF6355300AFACD4 /* MovedIt.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovedIt.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90F9A6D1BF6355300AFACD4 /* MoveItUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveItUITests.m; sourceTree = "<group>"; };
 		F90F9A6F1BF6355300AFACD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F90F9A7B1BF6373100AFACD4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F93F67401C40527900FB527C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F93F67421C40528200FB527C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F93F67441C40528D00FB527C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F93F67461C40529400FB527C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F93F67481C40529B00FB527C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F93F674A1C4052AC00FB527C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F93F674C1C4052B300FB527C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F93F674E1C4052B900FB527C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F93F67501C4052BF00FB527C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,35 +64,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F93F67511C4052BF00FB527C /* AudioToolbox.framework in Frameworks */,
+				F93F674F1C4052B900FB527C /* CFNetwork.framework in Frameworks */,
+				F93F674D1C4052B300FB527C /* CoreGraphics.framework in Frameworks */,
+				F93F674B1C4052AC00FB527C /* CoreLocation.framework in Frameworks */,
 				F90F9A7C1BF6373100AFACD4 /* QuartzCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F90F9A5B1BF6355300AFACD4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F90F9A661BF6355300AFACD4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F93F67491C40529B00FB527C /* Security.framework in Frameworks */,
+				F93F67471C40529400FB527C /* StoreKit.framework in Frameworks */,
+				F93F67451C40528D00FB527C /* SystemConfiguration.framework in Frameworks */,
+				F93F67431C40528200FB527C /* libz.tbd in Frameworks */,
+				F93F67411C40527900FB527C /* libsqlite3.0.tbd in Frameworks */,
+				7DEF1FF743297D7EBC5510A4 /* libPods-MovedIt.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3380C3C6214AE37E8FFBA381 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0292BA70BCD3B43115D3ECDD /* Pods-MovedIt.debug.xcconfig */,
+				51314185A5B7E38D1AB923C1 /* Pods-MovedIt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1AA6CB1267AB44F887738CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA6535B5018CEDBEBB93E7 /* Vector.m */,
+				C1AA6D8894188CEEE923B12F /* Vector.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F90F9A3C1BF6355300AFACD4 = {
 			isa = PBXGroup;
 			children = (
-				F90F9A7B1BF6373100AFACD4 /* QuartzCore.framework */,
 				F90F9A471BF6355300AFACD4 /* MoveIt */,
 				F90F9A611BF6355300AFACD4 /* MoveItTests */,
 				F90F9A6C1BF6355300AFACD4 /* MoveItUITests */,
 				F90F9A461BF6355300AFACD4 /* Products */,
+				F93F673D1C4006A300FB527C /* Frameworks */,
+				3380C3C6214AE37E8FFBA381 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				F90F9A451BF6355300AFACD4 /* MovedIt.app */,
-				F90F9A5E1BF6355300AFACD4 /* MovedIt.xctest */,
-				F90F9A691BF6355300AFACD4 /* MovedIt.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +131,7 @@
 				F90F9A561BF6355300AFACD4 /* LaunchScreen.storyboard */,
 				F90F9A591BF6355300AFACD4 /* Info.plist */,
 				F90F9A481BF6355300AFACD4 /* Supporting Files */,
+				C1AA6CB1267AB44F887738CB /* Model */,
 			);
 			path = MoveIt;
 			sourceTree = "<group>";
@@ -144,6 +162,24 @@
 			path = MoveItUITests;
 			sourceTree = "<group>";
 		};
+		F93F673D1C4006A300FB527C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F93F67501C4052BF00FB527C /* AudioToolbox.framework */,
+				F93F674E1C4052B900FB527C /* CFNetwork.framework */,
+				F93F674C1C4052B300FB527C /* CoreGraphics.framework */,
+				F93F674A1C4052AC00FB527C /* CoreLocation.framework */,
+				F93F67481C40529B00FB527C /* Security.framework */,
+				F93F67461C40529400FB527C /* StoreKit.framework */,
+				F93F67441C40528D00FB527C /* SystemConfiguration.framework */,
+				F93F67421C40528200FB527C /* libz.tbd */,
+				F93F67401C40527900FB527C /* libsqlite3.0.tbd */,
+				F90F9A7B1BF6373100AFACD4 /* QuartzCore.framework */,
+				5EE3ED073504641C85F3BD41 /* libPods-MovedIt.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F90F9A721BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MovedIt" */;
 			buildPhases = (
+				918420DF1E5E2D68266CE3BE /* Check Pods Manifest.lock */,
 				F90F9A411BF6355300AFACD4 /* Sources */,
 				F90F9A421BF6355300AFACD4 /* Frameworks */,
 				F90F9A431BF6355300AFACD4 /* Resources */,
+				ADE20E7E8C9E387463534ACB /* Embed Pods Frameworks */,
+				5BEE1CF14FE4C2BF8A746699 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,42 +202,6 @@
 			productName = MoveIt;
 			productReference = F90F9A451BF6355300AFACD4 /* MovedIt.app */;
 			productType = "com.apple.product-type.application";
-		};
-		F90F9A5D1BF6355300AFACD4 /* MovedItTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F90F9A751BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MovedItTests" */;
-			buildPhases = (
-				F90F9A5A1BF6355300AFACD4 /* Sources */,
-				F90F9A5B1BF6355300AFACD4 /* Frameworks */,
-				F90F9A5C1BF6355300AFACD4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F90F9A601BF6355300AFACD4 /* PBXTargetDependency */,
-			);
-			name = MovedItTests;
-			productName = MoveItTests;
-			productReference = F90F9A5E1BF6355300AFACD4 /* MovedIt.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F90F9A681BF6355300AFACD4 /* MovedItUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F90F9A781BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MovedItUITests" */;
-			buildPhases = (
-				F90F9A651BF6355300AFACD4 /* Sources */,
-				F90F9A661BF6355300AFACD4 /* Frameworks */,
-				F90F9A671BF6355300AFACD4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F90F9A6B1BF6355300AFACD4 /* PBXTargetDependency */,
-			);
-			name = MovedItUITests;
-			productName = MoveItUITests;
-			productReference = F90F9A691BF6355300AFACD4 /* MovedIt.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -212,14 +215,6 @@
 					F90F9A441BF6355300AFACD4 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = EB59AW96ZD;
-					};
-					F90F9A5D1BF6355300AFACD4 = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = F90F9A441BF6355300AFACD4;
-					};
-					F90F9A681BF6355300AFACD4 = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = F90F9A441BF6355300AFACD4;
 					};
 				};
 			};
@@ -237,8 +232,6 @@
 			projectRoot = "";
 			targets = (
 				F90F9A441BF6355300AFACD4 /* MovedIt */,
-				F90F9A5D1BF6355300AFACD4 /* MovedItTests */,
-				F90F9A681BF6355300AFACD4 /* MovedItUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,21 +247,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F90F9A5C1BF6355300AFACD4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F90F9A671BF6355300AFACD4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BEE1CF14FE4C2BF8A746699 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MovedIt/Pods-MovedIt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		918420DF1E5E2D68266CE3BE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADE20E7E8C9E387463534ACB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MovedIt/Pods-MovedIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F90F9A411BF6355300AFACD4 /* Sources */ = {
@@ -278,39 +305,11 @@
 				F90F9A501BF6355300AFACD4 /* ViewController.m in Sources */,
 				F90F9A4D1BF6355300AFACD4 /* AppDelegate.m in Sources */,
 				F90F9A4A1BF6355300AFACD4 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F90F9A5A1BF6355300AFACD4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F90F9A631BF6355300AFACD4 /* MoveItTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F90F9A651BF6355300AFACD4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F90F9A6E1BF6355300AFACD4 /* MoveItUITests.m in Sources */,
+				C1AA66258CACB677239AEFB6 /* Vector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F90F9A601BF6355300AFACD4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F90F9A441BF6355300AFACD4 /* MovedIt */;
-			targetProxy = F90F9A5F1BF6355300AFACD4 /* PBXContainerItemProxy */;
-		};
-		F90F9A6B1BF6355300AFACD4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F90F9A441BF6355300AFACD4 /* MovedIt */;
-			targetProxy = F90F9A6A1BF6355300AFACD4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F90F9A511BF6355300AFACD4 /* Main.storyboard */ = {
@@ -418,8 +417,10 @@
 		};
 		F90F9A731BF6355300AFACD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0292BA70BCD3B43115D3ECDD /* Pods-MovedIt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Atanas Balevsky (XNAYQ7NWXV)";
 				INFOPLIST_FILE = MoveIt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -432,8 +433,10 @@
 		};
 		F90F9A741BF6355300AFACD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51314185A5B7E38D1AB923C1 /* Pods-MovedIt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Atanas Balevski (EB59AW96ZD)";
 				INFOPLIST_FILE = MoveIt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -441,54 +444,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.balevsky.MovedIt;
 				PRODUCT_NAME = MovedIt;
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		F90F9A761BF6355300AFACD4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = MoveItTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "dk.less-is-more.MoveItTests";
-				PRODUCT_NAME = MovedIt;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovedIt.app/MovedIt";
-			};
-			name = Debug;
-		};
-		F90F9A771BF6355300AFACD4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = MoveItTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "dk.less-is-more.MoveItTests";
-				PRODUCT_NAME = MovedIt;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovedIt.app/MovedIt";
-			};
-			name = Release;
-		};
-		F90F9A791BF6355300AFACD4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MoveItUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "dk.less-is-more.MoveItUITests";
-				PRODUCT_NAME = MovedIt;
-				TEST_TARGET_NAME = MoveIt;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		F90F9A7A1BF6355300AFACD4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MoveItUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "dk.less-is-more.MoveItUITests";
-				PRODUCT_NAME = MovedIt;
-				TEST_TARGET_NAME = MoveIt;
-				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
@@ -509,24 +464,6 @@
 			buildConfigurations = (
 				F90F9A731BF6355300AFACD4 /* Debug */,
 				F90F9A741BF6355300AFACD4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F90F9A751BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MovedItTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F90F9A761BF6355300AFACD4 /* Debug */,
-				F90F9A771BF6355300AFACD4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F90F9A781BF6355300AFACD4 /* Build configuration list for PBXNativeTarget "MovedItUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F90F9A791BF6355300AFACD4 /* Debug */,
-				F90F9A7A1BF6355300AFACD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

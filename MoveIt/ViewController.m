@@ -7,7 +7,10 @@
 //
 
 #import <QuartzCore/QuartzCore.h>
+#import <Parse/Parse.h>
+
 #import "ViewController.h"
+#import "Vector.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIView *shaker;
@@ -28,9 +31,9 @@
         NSLog(@"swiped right, but already on the right");
         return;
     }
-    float toValue = -(M_PI/8);
     self.angle = -1;
-    [self rotate:toValue];
+    [self rotate:-(M_PI/8)];
+    [self locate:@"right"];
    
 }
 - (IBAction)left:(id)sender {
@@ -38,15 +41,15 @@
         NSLog(@"swiped left, but already on the left");
         return;
     }
-    float toValue = (M_PI/8);
     self.angle = 1;
-    [self rotate:toValue];
+    [self rotate:(M_PI/8)];
+    [self locate:@"left"];
 }
 
 -(void)rotate:(float)angle {
     [UIView animateWithDuration:0.5
                           delay:0.0
-                        options:nil
+                        options:0
                      animations:^{
                          [UIView setAnimationBeginsFromCurrentState:YES];
                          self.shaker.transform = CGAffineTransformMakeRotation(angle);
@@ -55,6 +58,52 @@
                      }];
 }
 
+-(void)locate:(NSString*)direction {
+    if ([CLLocationManager locationServicesEnabled]) {
+        NSLog(@"Location Services Enabled");
+        if ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusNotDetermined) {
+            UIAlertController *alert = [UIAlertController
+                                        alertControllerWithTitle:@"Info"
+                                        message:@"We will be saving the location of your mandalo movings."
+                                        preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertAction* close = [UIAlertAction
+                                 actionWithTitle:@"Close"
+                                 style:UIAlertActionStyleDefault
+                                 handler:^(UIAlertAction * action) {
+                                     [alert dismissViewControllerAnimated:YES completion:nil];
+                                 }];
+            [alert addAction:close];
+            [self presentViewController:alert animated:YES completion:nil];
+        }
+        if ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusDenied) {
+            // must be only once?
+            UIAlertController *alert = [UIAlertController
+                                          alertControllerWithTitle:@"Info"
+                                          message:@"We need your location to build the mandalo's map. Please go to Settings and turn on Location Service for this app."
+                                          preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertAction* close = [UIAlertAction
+                                    actionWithTitle:@"Close"
+                                    style:UIAlertActionStyleDefault
+                                    handler:^(UIAlertAction * action) {
+                                        [alert dismissViewControllerAnimated:YES completion:nil];
+                                    }];
+            [alert addAction:close];
+            [self presentViewController:alert animated:YES completion:nil];
+        }
+        [PFGeoPoint geoPointForCurrentLocationInBackground:^(PFGeoPoint *geoPoint, NSError *error) {
+            if (!error) {
+                Vector* vector = [Vector object];
+                vector.dir = direction;
+                vector.loc = geoPoint;
+                [vector saveInBackground];
+            }
+        }];
+        
+    } else {
+        // we can't save you on the map if you don't have location services enabled
+    }
+    
+}
 -(void)share {
     NSString *txt = self.angle > 0 ? @"I moved it to the left" : @"I moved it to the right";
     UIActivityViewController *activityVC = [[UIActivityViewController alloc] initWithActivityItems:@[txt] applicationActivities:nil];
